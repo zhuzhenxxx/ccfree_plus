@@ -1,3 +1,5 @@
+支持动态库方式，加载业务代码，支持业务热更新
+
 ## 1.日志模块
 支持流式日志风格写日志和格式化风格写日志，支持日志格式自定义，日志级别，多日志分离等等功能
 流式日志使用：CCFREE_LOG_INFO(g_logger) << "this is a log";
@@ -41,4 +43,25 @@ ByteArray二进制序列化模块，提供对二进制数据的常用操作。�
 采用Ragel（有限状态机，性能媲美汇编），实现了HTTP/1.1的简单协议实现和uri的解析。基于SocketStream实现了HttpConnection(HTTP的客户端)和HttpSession(HTTP服务器端的链接）。基于TcpServer实现了HttpServer。提供了完整的HTTP的客户端API请求功能，HTTP基础API服务器功能
 ## 13.Servlet模块
 仿照java的servlet，实现了一套Servlet接口，实现了ServletDispatch，FunctionServlet。NotFoundServlet。支持uri的精准匹配，模糊匹配等功能。和HTTP模块，一起提供HTTP服务器功能
-## 14.其他相关
+# 安装
+yaml安装:
+```
+yamp-cpp: soft文件夹内
+mkdir build && cd build && cmake .. && make install
+```
+
+openssl:
+```
+./config  --prefix=/usr/local --openssldir=/usr/local/ssl
+make && make install
+./config shared --prefix=/usr/local --openssldir=/usr/local/ssl
+make clean
+make && make install
+```
+
+jansson
+protobuf
+ragel-6.10
+apache-zookeeper-3.5.8.tar.gz  
+cmake-3.15.0-rc1    
+jdk-8u261-linux-x64.tar.gz
