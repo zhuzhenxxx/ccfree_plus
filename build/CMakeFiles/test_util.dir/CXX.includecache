@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_util.cc
+ccfree/ccfree.h
+/root/ccfree/tests/ccfree/ccfree.h
+assert.h
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_nameserver.cc
+ccfree/ccfree.h
+/root/ccfree/tests/ccfree/ccfree.h
+ccfree/ns/ns_protocol.h
+/root/ccfree/tests/ccfree/ns/ns_protocol.h
+ccfree/ns/ns_client.h
+/root/ccfree/tests/ccfree/ns/ns_client.h
+

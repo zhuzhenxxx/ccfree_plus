@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_zookeeper.cc
+ccfree/zk_client.h
+/root/ccfree/tests/ccfree/zk_client.h
+ccfree/log.h
+/root/ccfree/tests/ccfree/log.h
+ccfree/iomanager.h
+/root/ccfree/tests/ccfree/iomanager.h
+

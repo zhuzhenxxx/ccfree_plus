@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_rock.cc
+ccfree/ccfree.h
+/root/ccfree/tests/ccfree/ccfree.h
+ccfree/rock/rock_stream.h
+/root/ccfree/tests/ccfree/rock/rock_stream.h
+

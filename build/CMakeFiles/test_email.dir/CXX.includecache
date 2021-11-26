@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_email.cc
+ccfree/email/email.h
+/root/ccfree/tests/ccfree/email/email.h
+ccfree/email/smtp.h
+/root/ccfree/tests/ccfree/email/smtp.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_mysql.cc
+iostream
+-
+ccfree/db/mysql.h
+/root/ccfree/tests/ccfree/db/mysql.h
+ccfree/iomanager.h
+/root/ccfree/tests/ccfree/iomanager.h
+

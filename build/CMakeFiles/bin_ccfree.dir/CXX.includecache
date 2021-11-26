@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/ccfree/main.cc
+ccfree/application.h
+/root/ccfree/ccfree/ccfree/application.h
+stdlib.h
+-
+time.h
+-
+

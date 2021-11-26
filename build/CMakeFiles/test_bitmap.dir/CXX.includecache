@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_bitmap.cc
+ccfree/ccfree.h
+/root/ccfree/tests/ccfree/ccfree.h
+ccfree/ds/bitmap.h
+/root/ccfree/tests/ccfree/ds/bitmap.h
+ccfree/ds/roaring_bitmap.h
+/root/ccfree/tests/ccfree/ds/roaring_bitmap.h
+

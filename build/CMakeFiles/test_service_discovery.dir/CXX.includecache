@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_service_discovery.cc
+ccfree/streams/service_discovery.h
+/root/ccfree/tests/ccfree/streams/service_discovery.h
+ccfree/iomanager.h
+/root/ccfree/tests/ccfree/iomanager.h
+ccfree/rock/rock_stream.h
+/root/ccfree/tests/ccfree/rock/rock_stream.h
+ccfree/log.h
+/root/ccfree/tests/ccfree/log.h
+ccfree/worker.h
+/root/ccfree/tests/ccfree/worker.h
+

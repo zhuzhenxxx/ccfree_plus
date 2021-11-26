@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_sqlite3.cc
+ccfree/db/sqlite3.h
+/root/ccfree/tests/ccfree/db/sqlite3.h
+ccfree/log.h
+/root/ccfree/tests/ccfree/log.h
+ccfree/util.h
+/root/ccfree/tests/ccfree/util.h
+

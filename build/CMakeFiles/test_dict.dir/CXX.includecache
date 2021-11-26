@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ccfree/tests/test_dict.cc
+ccfree/ccfree.h
+/root/ccfree/tests/ccfree/ccfree.h
+ccfree/ds/dict.h
+/root/ccfree/tests/ccfree/ds/dict.h
+
